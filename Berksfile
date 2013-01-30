@@ -1,6 +1,6 @@
 site :opscode
 
-cookbook 'berkshelf', git: 'https://github.com/wercker/berkshelf-cookbook.git'
+cookbook 'wercker-postgresql', git: 'https://github.com/wercker/wercker-postgresql-cookbook.git'
 
 cookbook 'apt'
-cookbook 'build-essential'
+cookbook 'postgresql', '1.0.0'

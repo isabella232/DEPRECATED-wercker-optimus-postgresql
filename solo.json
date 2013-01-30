@@ -1,4 +1,15 @@
 {
-
-  "run_list": ["apt", "build-essential", "berkshelf" ]
+  "apt": {
+    "mirror": "us-east-1.ec2"
+  },
+  "postgresql": {
+    "password": {
+      "postgres": "wercker"
+    }
+  },
+  "run_list":[
+    "recipe[apt]",
+    "recipe[postgresql::server]",
+    "recipe[wercker-postgresql]"
+  ]
 }
