@@ -1,19 +1,27 @@
 {
-	"name" : "postgresql",
-	"version" : "0.0.1",
-  "stackInfo" :{},
-  "isPrivate" : false,
-  "mainDetect" : [],
-  "supportDetect" : [],
-  "packageIgnore" : [],
-  "environmentVariables" : [
-    {"WERCKER_POSTGRESQL_USERNAME" : "postgres"},
-    {"WERCKER_POSTGRESQL_PASSWORD" : "wercker"},
-    {"WERCKER_POSTGRESQL_PORT" : "5432"},
-    {"WERCKER_POSTGRESQL_DATABASE" : "werckerdb1"},
-    {"WERCKER_POSTGRESQL_URL" : "postgres://postgres:wercker@$$HOST$$:5432/werckerdb1"}],
-  "priority" : 1000
+  "name": "postgresql",
+  "version": "0.0.1",
+  "stackInfo": {},
+  "isPrivate": false,
+  "mainDetect": [],
+  "supportDetect": [],
+  "packageIgnore": [],
+  "environmentVariables": [
+    {
+      "WERCKER_POSTGRESQL_USERNAME": "postgres"
+    },
+    {
+      "WERCKER_POSTGRESQL_PASSWORD": "wercker"
+    },
+    {
+      "WERCKER_POSTGRESQL_PORT": "5432"
+    },
+    {
+      "WERCKER_POSTGRESQL_DATABASE": "werckerdb1"
+    },
+    {
+      "WERCKER_POSTGRESQL_URL": "postgres://postgres:wercker@$$HOST$$:5432/werckerdb1"
+    }
+  ],
+  "priority": 1000
 }
-
-
-
